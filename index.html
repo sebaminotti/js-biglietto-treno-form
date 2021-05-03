@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="master.css">
+    <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1>BIGLIETTERIA ONLINE</h1>
+  </header>
+    <!-- INIZIO FORM BIGLIETTO -->
+  <div id="form">
+    <div class="box">
+     <h3>NOME COGNOME</h3>
+     <input type="text" placeholder="Nome e Cognome" name="" id="nome">
+    </div>
+
+    <div class="box">
+      <h3>KM DA PERCORRERE</h3>
+      <input type="number" placeholder="km da percorrere" name="" id="km">
+     </div>
+
+     <div class="box">
+      <h3>FASCIA ETA'</h3>
+     <select name="" id="anni">
+       <option value="minori">Minorenni</option>
+      <option value="adulti">Adulti</option>
+      <option value="anziani">Over65</option>
+     </select>
+     </div>
+  </div>
+  <!-- FINE FORM BIGLIETTO -->
+
+  <!-- INIZIO SEZIONE BOTTONI -->
+    <div class="boxx">
+      <button id="genera">GENERA BIGLIETTO</button>
+     <button id="annulla">ANNULLA BIGLIETTO</button>
+    </div>
+  <!-- FINE SEZIONE BOTTONI -->
+
+
+
+
+  <!-- INIZIO BIGLIETTO COMPILATO -->
+   
+  <div class="box_biglietto" id="boxBiglietto"> 
+   <div class="nomePasseggero">
+     <h4>NOME PASSEGGERO</h4>
+     <h3 id="passeggero"></h3>
+   </div>
+   <div class="CARROZZA">
+     <h4>CARROZZA N°</h4>
+     <h3 id="carrozza"></h3>
+   </div>
+   <div class="POSTO">
+    <h4>POSTO  N°</h4>
+    <h3 id="posto"></h3>
+  </div>
+  <div class="CHILOMETRI">
+    <h4>KM PERCORSI</h4>
+    <h3 id="distanza"></h3>
+  </div>
+  <div class="ETA">
+    <h4>FASCIA ETA'</h4>
+    <h3 id="fasciaEta"></h3>
+  </div>
+
+  <div class="TOTALE">
+    <h4> IL SUO TOTALE</h4>
+    <h3 id="totale"></h3>
+  </div>
+  </div>
+ 
+
+
+  <!-- FINE BIGLIETTO COMPILATO -->
+
+
+  <div class="SCONTO" id="BIGLIETTOO">
+    <h2>ECCO IL TUO SCONTO</h2>
+ <h3 id="sconto"></h3>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="style.js"></script>
+</body>
+</html>
