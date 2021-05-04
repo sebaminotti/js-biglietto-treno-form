@@ -41,6 +41,11 @@ input:focus{
     outline: none;
 
 }
+select:focus{
+outline: none;
+}
+
+
 .box h3 {
 font-family: sans-serif;
 color: grey;
@@ -134,4 +139,7 @@ h4{
 
 background-color: darkgray;
 color: whitesmoke;
+}
+#boxBiglietto {
+display: none;
 }

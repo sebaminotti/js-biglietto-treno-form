@@ -1,8 +1,8 @@
 var nome 
 var eta 
 var km 
-var posto = Math.floor(Math.random()*(500,1150)+1);
-var carrozza = Math.floor(Math.random()*(120,1000)+1);
+var posto = Math.floor(Math.random()*(500,1150));
+var carrozza = Math.floor(Math.random()*(120,1000));
 
 var prezzoKm = 0.21;
 var prezzoKmGiovani = 0.21 / 100 * 80; // prezzo al km scontato 0.168:
@@ -67,7 +67,7 @@ document.getElementById("totale").innerHTML=totale+"€"
 annulla.addEventListener("click",
 function(){
 document.getElementById("boxBiglietto").style.display="none";
-document.getElementById("BIGLIETTOO").style.display="none"
+// document.getElementById("BIGLIETTOO").style.display="none"
 
 
 document.getElementById("form").style.display=location.reload();
@@ -77,7 +77,7 @@ document.getElementById("form").style.display=location.reload();
 genera.addEventListener("click",
 function(){
     document.getElementById("boxBiglietto").style.display="block";
-    document.getElementById("BIGLIETTOO").style.display="block"
+    // document.getElementById("BIGLIETTOO").style.display="block"
 
   
 }
